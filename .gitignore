@@ -17,6 +17,7 @@ js/reveal.min.js
 
 # Builds, test, IDE
 build/
+cmake-build-debug/
 .vscode/
 googletest/
 
