@@ -14,8 +14,8 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-add_executable(${PROJECT_NAME} src/main.cpp src/homework/multimap-homework.cpp src/homework/multimap-homework.hpp)
-add_executable(${PROJECT_NAME}-ut test/tests.cpp src/homework/multimap-homework.cpp src/homework/multimap-homework.hpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/homework/multimapHomework.cpp src/homework/multimapHomework.hpp)
+add_executable(${PROJECT_NAME}-ut test/tests.cpp src/homework/multimapHomework.cpp src/homework/multimapHomework.hpp)
 target_link_libraries(${PROJECT_NAME}-ut GTest::gtest_main)
 
 include(GoogleTest)
