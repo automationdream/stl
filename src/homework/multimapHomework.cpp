@@ -1,10 +1,10 @@
-#include "multimap-homework.hpp"
+#include "multimapHomework.hpp"
 #include <string>
 using namespace std;
 
-unordered_multimap<int, string> multimapa() {
+string multimapa() {
   std::unordered_multimap<int, string> map;
   map.insert({10, "Ten"});
   map.insert({11, "Eleven"});
-  return map;
+  return "Ten";
 }

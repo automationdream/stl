@@ -1,6 +1,6 @@
+#include "../src/homework/multimapHomework.hpp"
 #include <gtest/gtest.h>
-#include "../src/homework/multimap-homework.hpp"
 
 TEST(MyTest, MyFirstTest){
-  EXPECT_EQ(1,1);
+  EXPECT_EQ(multimapa(), "Ten");
 }
